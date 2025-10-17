@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { Menu, X, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -67,8 +68,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav
+      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 ${
         scrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
@@ -123,36 +124,37 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation Backdrop + Panel */}
-        {isOpen && (
-          <>
-            {/* Backdrop covering entire viewport to ensure consistent white background */}
-            <div
-              className="fixed inset-0 z-40 md:hidden bg-background"
-              aria-hidden="true"
-              onClick={() => setIsOpen(false)}
-            />
-
-            {/* Link panel positioned below the navbar */}
-            <div className="md:hidden fixed inset-x-0 top-16 bottom-0 z-50 bg-background border-t border-border animate-fade-in">
-              <div className="px-6 py-8 flex flex-col items-center gap-4">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className={`text-lg font-medium transition-colors duration-300 hover:text-primary ${
-                      activeSection === link.id ? 'text-primary' : 'text-muted-foreground'
-                    }`}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {link.name}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
       </div>
+
+      {/* Mobile Navigation Backdrop + Panel via portal to body to avoid stacking issues */}
+      {isOpen && typeof document !== 'undefined' && createPortal(
+        <>
+          {/* Fullscreen backdrop (under nav due to z order) */}
+          <div
+            className="fixed inset-0 z-[998] md:hidden bg-background bg-white dark:bg-[#0d0d0d]"
+            aria-hidden="true"
+            onClick={() => setIsOpen(false)}
+          />
+          {/* Link panel positioned below the navbar */}
+          <div className="md:hidden fixed inset-x-0 top-16 bottom-0 z-[999] bg-background bg-white dark:bg-[#0d0d0d] border-t border-border animate-fade-in">
+            <div className="px-6 py-8 flex flex-col items-center gap-4">
+              {navLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className={`text-lg font-medium transition-colors duration-300 hover:text-primary ${
+                    activeSection === link.id ? 'text-primary' : 'text-muted-foreground'
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        </>,
+        document.body
+      )}
     </nav>
   );
 };
