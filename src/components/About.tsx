@@ -97,7 +97,7 @@ const About = () => {
             </p>
             <p className="text-muted-foreground mb-4 leading-relaxed">
               Detail-oriented Full Stack Developer with strong expertise in Python, Machine Learning, Deep
-              Learning, and NLP. Skilled in building data-driven solutions, designing and deploying ML models, and
+              Learning, and NLP. Skilled in building full-stack web apps, designing and deploying ML models, and
               integrating AI features into web applications. 
             </p>
             <p className="text-muted-foreground leading-relaxed">

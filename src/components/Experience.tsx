@@ -17,7 +17,7 @@ const Experience = () => {
     {
       role: 'Web Developer',
       company: 'SincSol',
-      location: 'Lahore, Pakistan',
+      location: 'Lahore, Punjab, Pakistan',
       duration: 'Sep 2024 - Nov 2024 · 3 mos',
       achievements: [
         'Developed 2+ web solutions using C#, Razor Pages, JavaScript, and PostgreSQL.',
@@ -40,7 +40,7 @@ const Experience = () => {
       location: 'Lahore, Punjab, Pakistan',
       duration: 'Sep 2024 - May 2025 · 9 mos',
       achievements: [
-        'Mentored students 30+ students in Programming Fundamentals and OOP courses; led 15+ lab sessions.',
+        'Mentored 30+ students in Programming Fundamentals and OOP courses; led 15+ lab sessions.',
         'Supported lab sessions in C#, C++, Python and SQL.'
       ],
     },
