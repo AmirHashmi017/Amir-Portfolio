@@ -37,9 +37,8 @@ const Experience = () => {
       startDate: '2025-07-01',
       isPresent: true,
       achievements: [
-        "Designed and implemented scalable RESTful APIs using TypeScript, Express.js, and MongoDB.",
-        "Developed efficient database schemas and performed comprehensive API testing using Postman.",
-        'Build responsive frontends with React, integrating APIs, and managing auth flows.'
+        "Build and maintain full-stack applications using the MERN stack while developing AI-powered systems with LangChain, LangGraph, LangSmith, LLMs, and MCP, implementing RAG pipelines, agentic workflows, and persistent memory for production-grade solutions.",
+        "Design and deploy real-world AI automation pipelines using n8n, integrating LLMs, vector databases, OCR, voice AI, web scraping, and Google Workspace tools.",
       ],
     },
     {
