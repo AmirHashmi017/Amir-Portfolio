@@ -96,16 +96,15 @@ const About = () => {
               at Devanics. 
             </p>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              Detail-oriented Full Stack Developer with strong expertise in Python, Machine Learning, Deep
-              Learning, and NLP. Skilled in building full-stack web apps, designing and deploying ML models, and
-              integrating AI features into web applications. 
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Hands-on experience with MERN stack, ASP.Net Core, OOP, DSA, C#, JavaScript, and SQL/NoSQL databases.
-              Demonstrated success in professional,
-              internship, freelance, and academic projects. Seeking opportunities to contribute to innovative
-              AI/ML solutions while leveraging full-stack development expertise.
-            </p>
+  AI & Full Stack Developer specializing in Generative and Agentic AI, Python, Machine Learning, 
+  Deep Learning, and NLP. Experienced in building autonomous AI systems, RAG pipelines, 
+  multi-agent workflows, and AI-powered web applications.
+</p>
+<p className="text-muted-foreground leading-relaxed">
+  Hands-on experience with MERN stack, Next.js, React, ASP.Net Core, OOP, DSA, C#, 
+  JavaScript, and SQL/NoSQL databases. Proven track record in professional, freelance, 
+  internship, and academic projects, seeking opportunities to advance AI/ML solutions at scale.
+</p>
           </div>
         </div>
 

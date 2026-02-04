@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
             <span className="block text-foreground">Amir Hashmi</span>
-            <span className="block text-gradient mt-2">MERN & AI/ML Developer</span>
+            <span className="block text-gradient mt-2">MERN & AI Developer</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             2+ Years of Experience Building Full-Stack Web Apps and AI-Driven Solutions

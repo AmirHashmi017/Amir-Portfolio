@@ -24,10 +24,11 @@ const Skills = () => {
   }, []);
 
   const technicalSkills = [
+  { name: 'Generative & Agentic AI (LangChain, LangGraph, LangSmith)', level: 95 },
   { name: 'MERN Stack (MongoDB, Express, React, Node)', level: 92 },
   { name: 'Python & Machine Learning', level: 90 },
   { name: 'Deep Learning & NLP', level: 87 },
-  { name: 'ASP.Net Core (C#)', level: 85 },
+  { name: 'AI Automation (n8n)', level: 90 },
   { name: 'RESTful API Development', level: 90 },
   { name: 'Databases (MongoDB, SQL, PostgreSQL)', level: 88 },
   { name: 'Data Structures & Algorithms (DSA)', level: 92 },
@@ -94,6 +95,15 @@ const Skills = () => {
               <h4 className="text-xl font-bold mb-4">Core Expertise</h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
+    <span className="text-primary">✓</span>
+    Generative & Agentic AI Systems: RAG pipelines, multi-agent workflows, and persistent memory
+  </li>
+  <li className="flex items-center gap-2">
+    <span className="text-primary">✓</span>
+    AI Automation: n8n workflows, LLM integration, OCR, voice AI, web scraping, and Google Workspace
+  </li>
+                <li className="flex items-center gap-2">
+                  
                   <span className="text-primary">✓</span>
                   Full-Stack Web Application Development (MERN & ASP.Net Core)
                 </li>
@@ -113,6 +123,7 @@ const Skills = () => {
                   <span className="text-primary">✓</span>
                   Performance Optimization & Scalable Architecture
                 </li>
+                
               </ul>
             </div>
           </div>

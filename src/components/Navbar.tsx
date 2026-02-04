@@ -10,6 +10,9 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    // Set theme by default
+    document.documentElement.classList.add('dark');
+    
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
       
