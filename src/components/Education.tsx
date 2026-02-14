@@ -6,7 +6,7 @@ const Education = () => {
       degree: 'Bachelor of Science in Computer Science (BSCS)',
       institution: 'University of Engineering and Technology - UET Lahore',
       duration: '2023 - 2027',
-      grade: 'CGPA: 3.82',
+      grade: 'CGPA: 3.83',
       description: 'Focused on software engineering, data structures and algorithms, object-oriented programming, databases, and artificial intelligence. Gained hands-on experience with the MERN stack, machine learning, and data-driven applications.',
     },
     {
