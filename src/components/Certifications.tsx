@@ -44,11 +44,6 @@ const Certifications = () => {
       image: '/Assets/SQL Certificate.JPG',
       url: 'https://www.hackerrank.com/certificates/ec6238e677d1',
     },
-    {
-      title: 'Ustadam Internship Certificate',
-      image: '/Assets/Ustadam Certificate.jpeg',
-      url: 'https://www.linkedin.com/in/amirhashmi017/details/experience/',
-    },
     
   ];
 
