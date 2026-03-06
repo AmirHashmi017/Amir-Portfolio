@@ -92,7 +92,7 @@ const About = () => {
           <div className="animate-slide-in-right">
             <h3 className="text-2xl font-bold mb-4 text-primary">Professional Overview</h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              I am Amir Hashmi, a MERN & AI Developer with over 2 years of experience, currently working 
+              I am Amir Hashmi, a Full-Stack & AI Developer with over 2 years of experience, currently working 
               at Devanics. 
             </p>
             <p className="text-muted-foreground mb-4 leading-relaxed">

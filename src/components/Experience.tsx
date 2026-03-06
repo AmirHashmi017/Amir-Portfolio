@@ -31,7 +31,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      role: 'Full Stack Developer',
+      role: 'Full-Stack & AI Developer',
       company: 'Devanics',
       location: 'Remote',
       startDate: '2025-07-01',
