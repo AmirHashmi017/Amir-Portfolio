@@ -13,6 +13,7 @@ const Contact = () => {
     { icon: SiFiverr, href: 'https://www.fiverr.com/amir_hashmi017?public_mode=true', label: 'Fiverr' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/amirhashmi017', label: 'LinkedIn' },
     { icon: Github, href: 'https://github.com/amirhashmi017', label: 'GitHub' },
+    { icon: Code, href: 'https://leetcode.com/u/AmirHashmi191/', label: 'LeetCode' },
     { icon: Mail, href: 'mailto:amirhashmi017@gmail.com', label: 'Email' },
   ];
 
@@ -55,17 +56,17 @@ const Contact = () => {
 
             <div className="bg-card rounded-xl p-8 shadow-lg border border-border">
               <h3 className="text-2xl font-bold mb-6 text-primary">Social Links</h3>
-              <div className="flex justify-center gap-4">
+              <div className="flex justify-center gap-3 py-2">
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-14 h-14 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 glow-cyan"
+                    className="flex-shrink-0 aspect-square w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 glow-cyan"
                     aria-label={social.label}
                   >
-                    <social.icon className="h-6 w-6 text-background" />
+                    <social.icon className="h-5 w-5 sm:h-6 sm:w-6 text-background" />
                   </a>
                 ))}
               </div>
