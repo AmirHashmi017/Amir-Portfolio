@@ -81,7 +81,7 @@ const About = () => {
     {/* Fixed height for tighter control */}
     <div className="relative h-64 md:h-80 w-full">
       <img
-        src="/Assets/MyPic.png"
+        src="/Assets/MyPic.jpeg"
         alt="Portrait of Amir Hashmi"
         className="absolute inset-0 h-full w-full object-cover object-top"
       />
