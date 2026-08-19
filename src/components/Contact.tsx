@@ -1,4 +1,4 @@
-import { Mail, Linkedin, MapPin, Phone, Github, Code} from 'lucide-react';
+import { Mail, Linkedin, MapPin, Phone, Github } from 'lucide-react';
 import { SiFiverr, SiUpwork } from "react-icons/si";
 
 const Contact = () => {
@@ -13,7 +13,6 @@ const Contact = () => {
     { icon: SiFiverr, href: 'https://www.fiverr.com/amir_hashmi017?public_mode=true', label: 'Fiverr' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/amirhashmi017', label: 'LinkedIn' },
     { icon: Github, href: 'https://github.com/amirhashmi017', label: 'GitHub' },
-    { icon: Code, href: 'https://leetcode.com/u/AmirHashmi191/', label: 'LeetCode' },
     { icon: Mail, href: 'mailto:amirhashmi017@gmail.com', label: 'Email' },
   ];
 
