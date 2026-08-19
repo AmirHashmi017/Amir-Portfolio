@@ -11,6 +11,9 @@ import {
   Globe,
   MoonStar,
   Monitor,
+  HardHat,
+  TrendingUp,
+  UserCheck,
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -18,6 +21,30 @@ import { Badge } from '@/components/ui/badge';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Schesti – Construction Management Platform',
+      category: 'Professional Project, Devanics',
+      description: 'Contributed to full-stack development of a construction management platform, delivering backend services with TypeScript and frontend interfaces with React and Next.js.',
+      icon: HardHat,
+      tags: ['TypeScript', 'React', 'Next.js', 'Full-Stack'],
+      color: 'from-primary to-primary/60',
+    },
+    {
+      title: 'Vorame – Traders Community Platform',
+      category: 'Professional Project, Devanics',
+      description: 'Architected backend logic using TypeScript and Express.js, and crafted dynamic frontend components using React for a traders community application.',
+      icon: TrendingUp,
+      tags: ['TypeScript', 'Express.js', 'React', 'REST APIs'],
+      color: 'from-primary to-primary/60',
+    },
+    {
+      title: 'AI-Powered HR Hiring Automation',
+      category: 'Professional Project, Devanics',
+      description: 'Launched an AI-driven hiring automation system that generates job postings, shortlists CVs, and sends candidate status updates. Orchestrated the end-to-end recruitment workflow using LangGraph and LangChain.',
+      icon: UserCheck,
+      tags: ['LangGraph', 'LangChain', 'LLMs', 'AI Automation'],
+      color: 'from-primary to-primary/60',
+    },
     {
       title: 'Volvox - AI Research Assistant',
       category: 'Generative & Agentic AI',
@@ -171,28 +198,30 @@ const Projects = () => {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="gap-2">
-                {project.liveUrl ? (
-                  <div className="flex w-full gap-2">
-                    <Button asChild className="flex-1">
-                      <a href={project.liveUrl} target="_blank" rel="noreferrer noopener">
-                        Live Project
-                      </a>
-                    </Button>
-                    <Button asChild variant="outline" className="flex-1 bg-muted/50 hover:bg-muted text-foreground hover:text-foreground">
+              {(project.liveUrl || project.githubUrl) && (
+                <CardFooter className="gap-2">
+                  {project.liveUrl ? (
+                    <div className="flex w-full gap-2">
+                      <Button asChild className="flex-1">
+                        <a href={project.liveUrl} target="_blank" rel="noreferrer noopener">
+                          Live Project
+                        </a>
+                      </Button>
+                      <Button asChild variant="outline" className="flex-1 bg-muted/50 hover:bg-muted text-foreground hover:text-foreground">
+                        <a href={project.githubUrl ?? '#'} target="_blank" rel="noreferrer noopener">
+                          GitHub Code
+                        </a>
+                      </Button>
+                    </div>
+                  ) : (
+                    <Button asChild className="w-full">
                       <a href={project.githubUrl ?? '#'} target="_blank" rel="noreferrer noopener">
-                        GitHub Code
+                        View GitHub Code
                       </a>
                     </Button>
-                  </div>
-                ) : (
-                  <Button asChild className="w-full">
-                    <a href={(project as any).githubUrl ?? '#'} target="_blank" rel="noreferrer noopener">
-                      View GitHub Code
-                    </a>
-                  </Button>
-                )}
-              </CardFooter>
+                  )}
+                </CardFooter>
+              )}
             </Card>
           ))}
         </div>
