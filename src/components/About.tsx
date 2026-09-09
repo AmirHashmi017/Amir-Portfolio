@@ -93,7 +93,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-4 text-primary">Professional Overview</h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
               I am Amir Hashmi, a Full-Stack AI Engineer with over 2 years of experience, currently working 
-              at Devanics. 
+              at Techmanion. 
             </p>
             <p className="text-muted-foreground mb-4 leading-relaxed">
   Full Stack AI Engineer specializing in Generative and Agentic AI, Python, Machine Learning, 

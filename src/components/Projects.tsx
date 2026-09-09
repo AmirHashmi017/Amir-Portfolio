@@ -14,6 +14,7 @@ import {
   HardHat,
   TrendingUp,
   UserCheck,
+  LineChart,
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -21,6 +22,14 @@ import { Badge } from '@/components/ui/badge';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'LedgerIQ – AI-Powered Financial Insights & Forecasting Platform',
+      category: 'Professional Project, Techmanion',
+      description: 'Full Stack AI Engineer on a financial guidance platform that onboards businesses through a guided questionnaire, ingests uploaded P&L files, and connects to QuickBooks, Stripe, Gusto, and Deel to pull live financial records. Built AI-driven reporting backend APIs (MERN) powering dashboards with net income, revenue, and expense insights, plus AI-generated forecasting and P&L scorecard reports.',
+      icon: LineChart,
+      tags: ['MERN Stack', 'QuickBooks', 'Stripe', 'AI Forecasting'],
+      color: 'from-primary to-primary/60',
+    },
     {
       title: 'Schesti – Construction Management Platform',
       category: 'Professional Project, Devanics',

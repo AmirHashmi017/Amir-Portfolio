@@ -31,11 +31,24 @@ const Experience = () => {
 
   const experiences = [
     {
-      role: 'Full-Stack AI Engineer',
+      role: 'Full Stack AI Engineer',
+      company: 'Techmanion',
+      location: 'Lahore, Punjab, Pakistan',
+      startDate: '2026-07-01',
+      isPresent: true,
+      achievements: [
+        'Develop scalable full-stack applications using TypeScript, Node.js, Express.js, React, Next.js, and MongoDB for US-based clients.',
+        'Build AI-powered solutions with LLMs, LangChain, LangGraph, LangSmith, MCP, RAG, and AI agents.',
+        'Develop financial-services platforms integrating QuickBooks Online, Stripe, and Gusto for financial analytics, dashboards, forecasting, reporting, and AI-driven insights.',
+        'Integrate business platforms including HubSpot, Salesforce, and Monday.com, and implement n8n automation workflows using LLMs, vector databases, OCR, voice AI, and web scraping.',
+      ],
+    },
+    {
+      role: 'Full Stack AI Engineer',
       company: 'Devanics',
       location: 'Remote',
       startDate: '2025-07-01',
-      isPresent: true,
+      endDate: '2026-06-30',
       achievements: [
         'Build and maintain 5 full-stack applications and modules using TypeScript, Node.js, Express.js, React, Next.js, and MongoDB (NoSQL).',
         'Design and implement RESTful APIs, backend services, authentication systems, and reusable frontend components.',
