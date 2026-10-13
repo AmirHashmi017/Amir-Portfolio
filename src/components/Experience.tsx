@@ -47,7 +47,7 @@ const Experience = () => {
       role: 'Full Stack AI Engineer',
       company: 'Devanics',
       location: 'Remote',
-      startDate: '2025-07-01',
+      startDate: '2024-07-01',
       endDate: '2026-06-30',
       achievements: [
         'Build and maintain 5 full-stack applications and modules using TypeScript, Node.js, Express.js, React, Next.js, and MongoDB (NoSQL).',
@@ -61,8 +61,8 @@ const Experience = () => {
       role: 'Web Developer',
       company: 'SincSol',
       location: 'Lahore, Punjab, Pakistan',
-      startDate: '2024-09-01',
-      endDate: '2024-11-30',
+      startDate: '2023-09-01',
+      endDate: '2023-11-30',
       achievements: [
         'Developed 2+ web solutions using C#, Razor Pages, JavaScript, and PostgreSQL.',
         'Collaborated with 3+ team members on UI enhancements using REACT, HTML and CSS.'
@@ -72,8 +72,8 @@ const Experience = () => {
       role: 'Teaching Assistant',
       company: 'University of Engineering and Technology Lahore',
       location: 'Lahore, Punjab, Pakistan',
-      startDate: '2024-09-01',
-      endDate: '2025-05-31',
+      startDate: '2023-09-01',
+      endDate: '2024-05-31',
       achievements: [
         'Mentored 30+ students in Programming Fundamentals and OOP courses; led 15+ lab sessions.',
         'Supported lab sessions in C#, C++, Python and SQL.'
@@ -83,8 +83,8 @@ const Experience = () => {
       role: 'Web Development Intern',
       company: 'Ustadam',
       location: 'Lahore, Punjab, Pakistan',
-      startDate: '2024-06-01',
-      endDate: '2024-08-31',
+      startDate: '2023-06-01',
+      endDate: '2023-08-31',
       achievements: [
         'Created dynamic pages with ASP.Net Core Razor Pages and back-end integration via MS SQL for 2+ modules.',
         'Built 2 desktop utilities using Windows Forms (C#).'

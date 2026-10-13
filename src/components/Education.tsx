@@ -5,21 +5,18 @@ const Education = () => {
     {
       degree: 'Bachelor of Science in Computer Science (BSCS)',
       institution: 'University of Engineering and Technology - UET Lahore',
-      duration: '2023 - 2027',
       grade: 'CGPA: 3.83',
       description: 'Focused on software engineering, data structures and algorithms, object-oriented programming, databases, and artificial intelligence. Gained hands-on experience with the MERN stack, machine learning, and data-driven applications.',
     },
     {
       degree: 'Intermediate in Computer Science (ICS)',
       institution: 'Punjab Group of Colleges - PGC',
-      duration: '2021 - 2023',
       grade: 'Grade: A',
       description: 'Studied core subjects including computer science, mathematics, and physics, building a strong foundation for programming and analytical thinking.',
     },
     {
       degree: 'Matric in Computer Science',
       institution: 'Punjab School',
-      duration: '2019 - 2021',
       grade: 'Grade: A+',
       description: 'Completed foundational studies in science and mathematics, building essential academic and analytical skills.',
     },
@@ -51,12 +48,8 @@ const Education = () => {
                   <h3 className="text-2xl font-bold mb-2">{edu.degree}</h3>
                   <p className="text-primary font-semibold mb-2">{edu.institution}</p>
                   <div className="flex flex-wrap gap-4 mb-3">
-                    <span className="text-sm text-muted-foreground">{edu.duration}</span>
                     {edu.grade && (
-                      <>
-                        <span className="text-muted-foreground">•</span>
-                        <span className="text-sm text-primary font-semibold">{edu.grade}</span>
-                      </>
+                      <span className="text-sm text-primary font-semibold">{edu.grade}</span>
                     )}
                   </div>
                   <p className="text-muted-foreground">{edu.description}</p>

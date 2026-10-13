@@ -32,7 +32,7 @@ const Hero = () => {
             <span className="block text-gradient mt-2">Full-Stack AI Engineer</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            2+ Years of Experience Building Full-Stack Web Apps and AI-Driven Solutions
+            3+ Years of Experience Building Full-Stack Web Apps and AI-Driven Solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button

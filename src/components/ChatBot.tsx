@@ -16,7 +16,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hello! I'm Hammad's assistant. How can I help you today?",
+      text: "Hello! I'm Amir's assistant. How can I help you today?",
       sender: 'bot',
     },
   ]);
@@ -65,17 +65,18 @@ const ChatBot = () => {
   };
 
   const quickResponses: Record<string, string> = {
-    skills: "Hammad's technical skills include Oracle Primavera P6 (95%), Project Planning & Scheduling (93%), Cost Control & Budgeting (90%), Progress Tracking & Reporting (92%), Risk Assessment (88%), Microsoft Project (88%), AutoCAD (85%), Microsoft Excel (90%), and SketchUp (82%). His soft skills include Leadership, Communication, Problem Solving, and Strategic Planning.",
-    experience: "Hammad has 5+ years of professional experience:\n\n1. **Planning Engineer at Nudhum** (Apr 2025 - Present, Jeddah, Saudi Arabia) - Currently working with a multinational company.\n\n2. **Planning Engineer at Arail Construction & Industrial Co. Ltd.** (2023 - Mar 2025, Riyadh, Saudi Arabia) - Worked on AL-Kharj-STP Phase III project with Thabat Construction Company. Responsibilities included tracking project activities, preparing EOT claims, developing progress reports, and coordinating with subcontractor planning engineers.\n\n3. **Planning Engineer at Ittefaq Group** (2020 - 2023, Lahore, Pakistan) - Planned strategic urban development, collaborated with site teams, coordinated material transportation, and utilized advanced project management tools.",
-    projects: "Navigate to the Projects section to see Hammad's featured work including infrastructure projects, sewage treatment plants, and urban development projects across Saudi Arabia and Pakistan.",
-    contact: "You can reach Hammad at:\n📧 Email: Hammad381010@gmail.com\n📱 Mobile: +966 55 330 4107\n📍 Location: Jeddah, Saudi Arabia\n💼 LinkedIn: linkedin.com/in/hammad-ul-hassan-b01b5533b\n📸 Instagram: @mr.hammado4",
-    resume: "Hammad is a Planning Engineer with over 5 years of experience specializing in Project Schedule Management, Cost & Resource Loaded Baseline Master Schedules, Program Updates & Recovery Plans, Earned Value Analysis, and Visual Reporting. He holds a Transferable Iqama and is actively seeking new opportunities.",
-    about: "Hammad is Engr. Hammad Ul Hassan, a Planning Engineer with 5+ years of experience, currently working in Saudi Arabia with a multinational company. He has completed 100+ projects across 3 companies with 15+ areas of expertise including Project Schedule Management, Earned Value Analysis, Cost Management, and Forecasting.",
-    certifications: "Hammad's core expertise areas include: Recovery & Revise Schedule, Queries & Connections, Earned Value Analysis, Resource & Cost Management, and Forecasting & Performance Analysis. Navigate to the Skills section for complete details.",
-    education: "Hammad holds a **Bachelor of Science in Civil Engineering** from University of Management and Technology (UMT), Lahore (2019-2023) with Grade A. He also completed F.S.C Pre-Engineering from Superior College (2017-2019).",
-    nudhum: "Hammad is currently working as a Planning Engineer at Nudhum in Jeddah, Saudi Arabia (Apr 2025 - Present). This is a full-time, on-site position with a multinational company.",
-    arail: "At Arail Construction & Industrial Co. Ltd. (2023 - Mar 2025), Hammad worked on the AL-Kharj-STP Phase III project in Riyadh. His responsibilities included tracking activities, preparing EOT claims, developing comprehensive progress reports, and coordinating with subcontractor planning engineers.",
-    ittefaq: "At Ittefaq Group (2020 - 2023) in Lahore, Pakistan, Hammad planned strategic urban development, collaborated with site teams, coordinated material transportation, and utilized advanced project management software.",
+    skills: "Amir's technical skills include Generative & Agentic AI with LangChain, LangGraph and LangSmith (95%), the MERN stack (92%), Python & Machine Learning (90%), Deep Learning & NLP (87%), AI Automation with n8n (90%), RESTful API Development (90%), Databases like MongoDB, SQL and PostgreSQL (88%), DSA (92%), OOP (94%), and Git, Docker & AWS (85%). Soft skills include Leadership, Communication, Problem Solving, and Strategic Planning.",
+    experience: "Amir has 3+ years of professional experience:\n\n1. **Full Stack AI Engineer at Techmanion** (Lahore) - Builds full-stack apps and AI solutions with LLMs, LangChain, LangGraph, RAG and AI agents for US-based clients, including financial platforms integrating QuickBooks, Stripe and Gusto.\n\n2. **Full Stack AI Engineer at Devanics** (Remote) - Built 5 full-stack applications and 3 AI agent and RAG-based systems, plus n8n automation workflows.\n\n3. **Web Developer at SincSol** (Lahore) - Developed web solutions with C#, Razor Pages, JavaScript and PostgreSQL.\n\n4. **Teaching Assistant at UET Lahore** - Mentored 30+ students in Programming Fundamentals and OOP.\n\n5. **Web Development Intern at Ustadam** (Lahore) - Built ASP.Net Core Razor Pages with MS SQL and Windows Forms utilities.",
+    projects: "Navigate to the Projects section to see Amir's featured work, including LedgerIQ (AI financial insights), Schesti (construction management), Vorame (traders community), an AI-powered HR hiring automation, the Volvox AI research assistant, an MCP server with agentic workflows, and several ML, deep learning and web projects.",
+    contact: "You can reach Amir at:\n📧 Email: amirhashmi017@gmail.com\n📱 Phone: +92 328 4136880\n📍 Location: Lahore, Pakistan\n💼 LinkedIn: linkedin.com/in/amirhashmi017\n💻 GitHub: github.com/amirhashmi017",
+    resume: "Amir is a Full-Stack AI Engineer with 3+ years of experience specializing in Generative and Agentic AI, RAG pipelines, multi-agent workflows, AI automation, and full-stack web development with the MERN stack and Next.js.",
+    about: "Amir Hashmi is a Full-Stack AI Engineer with 3+ years of experience, currently working at Techmanion. Amir specializes in Generative and Agentic AI, Python, Machine Learning, Deep Learning and NLP, and builds autonomous AI systems, RAG pipelines and AI-powered web applications.",
+    certifications: "Amir's certifications include the ML, Deep Learning & NLP Bootcamp, Google AI Essentials, Maximize Productivity With AI Tools, Prompt Engineering, and HackerRank certificates in Python, JavaScript, C# and SQL.",
+    education: "Amir is pursuing a **Bachelor of Science in Computer Science (BSCS)** at the University of Engineering and Technology (UET) Lahore with a CGPA of 3.83. Before that, Amir completed an Intermediate in Computer Science (ICS) at Punjab Group of Colleges with Grade A, and Matric in Computer Science at Punjab School with Grade A+.",
+    techmanion: "Amir currently works as a Full Stack AI Engineer at Techmanion in Lahore, building full-stack and AI-powered applications for US-based clients, including financial-services platforms integrating QuickBooks Online, Stripe and Gusto, and n8n automation workflows.",
+    devanics: "At Devanics (Remote), Amir worked as a Full Stack AI Engineer, building 5 full-stack applications with TypeScript, Node.js, React, Next.js and MongoDB, and engineering 3 AI agent and RAG-based systems with LangChain, LangGraph, LangSmith and MCP.",
+    sincsol: "At SincSol in Lahore, Amir worked as a Web Developer, building web solutions with C#, Razor Pages, JavaScript and PostgreSQL and collaborating on UI enhancements with React, HTML and CSS.",
+    ustadam: "At Ustadam in Lahore, Amir interned as a Web Developer, creating dynamic pages with ASP.Net Core Razor Pages and MS SQL, and building 2 desktop utilities with Windows Forms (C#).",
   };
 
   const handleSend = () => {
@@ -90,7 +91,7 @@ const ChatBot = () => {
     setMessages((prev) => [...prev, userMessage]);
 
     // Simple keyword matching for responses
-    let botResponse = "I'm here to help! You can ask me about Hammad's skills, experience, projects, education, certifications, or how to contact him.";
+    let botResponse = "I'm here to help! You can ask me about Amir's skills, experience, projects, education, certifications, or how to get in touch.";
 
     const lowerInput = inputValue.toLowerCase();
     
@@ -193,7 +194,7 @@ const ChatBot = () => {
           {/* Header */}
           <div className="bg-gradient-to-r from-primary to-secondary p-4">
             <h3 className="text-lg font-bold text-background">Portfolio Assistant</h3>
-            <p className="text-sm text-background/80">Ask me anything about Hammad</p>
+            <p className="text-sm text-background/80">Ask me anything about Amir</p>
           </div>
 
           {/* Messages */}
