@@ -50,11 +50,11 @@ const Experience = () => {
       startDate: '2024-07-01',
       endDate: '2026-06-30',
       achievements: [
-        'Build and maintain 5 full-stack applications and modules using TypeScript, Node.js, Express.js, React, Next.js, and MongoDB (NoSQL).',
-        'Design and implement RESTful APIs, backend services, authentication systems, and reusable frontend components.',
-        'Engineer 3 AI agent and RAG-based systems using LLMs, LangChain, LangGraph, LangSmith, and MCP, implementing agentic workflows and persistent memory.',
-        'Automate business systems with n8n, integrating LLMs, vector databases, OCR, voice AI, and web scraping tools.',
-        'Contribute across the full software development lifecycle, from feature planning and API integration to debugging, testing, and deployment.',
+        'Built and maintained 5 full-stack applications and modules using TypeScript, Node.js, Express.js, React, Next.js, and MongoDB (NoSQL).',
+        'Designed and implemented RESTful APIs, backend services, authentication systems, and reusable frontend components.',
+        'Engineered 3 AI agent and RAG-based systems using LLMs, LangChain, LangGraph, LangSmith, and MCP, implementing agentic workflows and persistent memory.',
+        'Automated business systems with n8n, integrating LLMs, vector databases, OCR, voice AI, and web scraping tools.',
+        'Contributed across the full software development lifecycle, from feature planning and API integration to debugging, testing, and deployment.',
       ],
     },
     {
